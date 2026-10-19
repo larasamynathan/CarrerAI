@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { ResumeAnalyzer } from '@/components/career/resume';
+export const Route = createFileRoute('/_authenticated/resume')({ head: () => ({ meta: [{title:'Resume Analyzer | CareerAI'},{name:'description',content:'Upload your resume for an estimated ATS-style score and AI feedback.'},{property:'og:title',content:'Resume Analyzer | CareerAI'},{property:'og:description',content:'Upload your resume for an estimated ATS-style score and AI feedback.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary'}] }), component: ResumeAnalyzer });

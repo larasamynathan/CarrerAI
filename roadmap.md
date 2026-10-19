@@ -1,0 +1,14 @@
+# CareerAI roadmap
+- [x] Establish responsive shell, routes, shared UI, and authenticated student data.
+- [x] Add preparation plan, assessments, interview schedule, profile, progress, and resource views.
+- [x] Redesign all frontend views using a magazine layout, midnight-orchid palette, Playfair Display headings, and Butler-style body text.
+- [x] Add full auth (register, login, logout, forgot/reset password, protected pages) and the complete student database with row-level security.
+- [x] Rebuild the student dashboard around live readiness, recommendations, today’s plan, progress, and upcoming sessions.
+- [ ] Verify the redesigned frontend across desktop and mobile layouts.
+- [x] Mock Interview module (Technical/HR/Behavioral, unique questions, AI evaluation, final report)
+- [x] Preparation scheduling (calendar, timeline, focus screen launching existing modules)
+- [ ] Add AI coach, resume analysis, mock interview scoring, and RAG retrieval as later feature phases.
+- [x] RAG knowledge system (knowledge base, vector search, grounded coach with sources)
+- [x] Resume Analyzer (private upload, extraction, estimated ATS-style score, AI feedback, saved history)
+- [x] Skill Assessment (timed AI-generated tests, server grading, topic scores feeding weak areas)
+- [x] Weak Area Recommendation Engine + Weak Areas page

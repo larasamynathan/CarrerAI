@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { AnalyticsView as ProgressView } from '@/components/career/analytics';
+export const Route = createFileRoute('/_authenticated/progress')({ head: () => ({ meta: [{title:'Progress analytics | CareerAI'},{name:'description',content:'Placement readiness, assessment trends, practice streaks and your progress timeline.'},{property:'og:title',content:'Progress analytics | CareerAI'},{property:'og:description',content:'Placement readiness, assessment trends, practice streaks and your progress timeline.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary'}] }), component: ProgressView });

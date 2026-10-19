@@ -1,0 +1,1 @@
+COMMENT ON SCHEMA public IS 'CareerAI schema: setup steps 0000-0009 applied';

@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { SchedulePage } from '@/components/career/schedule';
+export const Route = createFileRoute('/_authenticated/schedule')({ head: () => ({ meta: [{title:'Preparation Schedule | CareerAI'},{name:'description',content:'Plan, reschedule and start focused placement preparation sessions in CareerAI.'},{property:'og:title',content:'Preparation Schedule | CareerAI'},{property:'og:description',content:'Plan, reschedule and start focused placement preparation sessions in CareerAI.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary'}] }), component: SchedulePage });

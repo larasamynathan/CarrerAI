@@ -1,0 +1,97 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790699784375,
+      "tag": "0000_careerai_schema",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1790701413950,
+      "tag": "0001_rag_knowledge_base",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790734655962,
+      "tag": "0002_resume_storage_policies",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1790818883369,
+      "tag": "0003_knowledge_subtopic",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1790819511292,
+      "tag": "0004_chat_message_meta",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1790945391480,
+      "tag": "0005_assessment_engine",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1790945404781,
+      "tag": "0006_assessment_write_lockdown",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1791053472559,
+      "tag": "0007_weak_area_engine",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1791186555073,
+      "tag": "0008_mock_interview_engine",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1791278288993,
+      "tag": "0009_schedule_sessions_prep",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1791856440768,
+      "tag": "0010_careerai_setup_complete_marker",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1791856669839,
+      "tag": "0011_placement_roadmaps",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1792069769127,
+      "tag": "0012_resource_library",
+      "breakpoints": true
+    }
+  ]
+}

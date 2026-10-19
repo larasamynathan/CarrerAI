@@ -1,0 +1,3 @@
+import { createFileRoute } from '@tanstack/react-router';
+import { WeakAreasPage } from '@/components/career/weak-areas';
+export const Route = createFileRoute('/_authenticated/weak-areas')({ head: () => ({ meta: [{title:'Weak Areas | CareerAI'},{name:'description',content:'Topic-by-topic focus areas and practice recommendations from your CareerAI results.'},{property:'og:title',content:'Weak Areas | CareerAI'},{property:'og:description',content:'Topic-by-topic focus areas and practice recommendations from your CareerAI results.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary'}] }), component: WeakAreasPage });

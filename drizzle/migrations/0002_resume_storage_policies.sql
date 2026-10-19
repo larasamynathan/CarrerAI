@@ -1,0 +1,4 @@
+create policy "Students read own resumes" on storage.objects for select to authenticated using (bucket_id = 'resumes' and (storage.foldername(name))[1] = auth.uid()::text);
+create policy "Students upload own resumes" on storage.objects for insert to authenticated with check (bucket_id = 'resumes' and (storage.foldername(name))[1] = auth.uid()::text);
+create policy "Students delete own resumes" on storage.objects for delete to authenticated using (bucket_id = 'resumes' and (storage.foldername(name))[1] = auth.uid()::text);
+alter table public.resume_analysis add column if not exists ats_breakdown jsonb not null default '[]'::jsonb, add column if not exists suggestions jsonb not null default '[]'::jsonb, add column if not exists missing_keywords jsonb not null default '[]'::jsonb, add column if not exists target_role text;
